@@ -1,0 +1,32 @@
+16749 windows from 121 children on cpu
+fold 1: window acc 0.878 | child acc 0.875 (24 children)
+fold 2: window acc 0.874 | child acc 0.875 (24 children)
+fold 3: window acc 0.837 | child acc 0.840 (25 children)
+fold 4: window acc 0.838 | child acc 0.875 (24 children)
+fold 5: window acc 0.863 | child acc 0.917 (24 children)
+{
+  "window_level": {
+    "accuracy": 0.8576631440683026,
+    "precision": 0.8645364064955474,
+    "recall": 0.8832280851974741,
+    "f1": 0.8737822956374418,
+    "roc_auc": 0.9194500214165169
+  },
+  "child_level": {
+    "accuracy": 0.8760330578512396,
+    "precision": 0.859375,
+    "recall": 0.9016393442622951,
+    "f1": 0.88,
+    "roc_auc": 0.9270491803278689
+  },
+  "child_confusion_matrix": [
+    [
+      51,
+      9
+    ],
+    [
+      6,
+      55
+    ]
+  ]
+}
